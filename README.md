@@ -29,10 +29,12 @@ The sequence of the application is as follows:
 The URL of the functional, deployed application.
 URL:
  https://mcleangit.github.io/scheduler/
+ screenshot in repo
 
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 URL:
 https://github.com/mcleanGit/scheduler
+
 
 
 ---
