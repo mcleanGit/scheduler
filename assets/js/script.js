@@ -9,6 +9,12 @@ $('.saveBtn').on('click', function() {
   localStorage.setItem(time, value);
 });
 
+function displayCurrentDate(currentTime) {
+  document.getElementById('currentDay')
+  .textContent = currentTime.format("dddd, MMMM, Do, YYYY, HH:mm");
+}
+
+
 function hourBlock () {
   var currentHour = moment().hours();
   $('.blockTime').each(function() {
@@ -24,6 +30,8 @@ function hourBlock () {
  };
 // calls the hourBlock function
 hourBlock ();
+
+
 
 /* class rowTimeBlock {
  hour = hour;
